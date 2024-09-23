@@ -7,7 +7,7 @@
 ## Kurulum Adımları
 
 1. **Bağlantı Dizesini Güncelleyin**:
-   - Projenin `appsettings.json` dosyasını açın ve `ConnectionStrings` bölümündeki `DefaultConnection` ayarını kendi SQL Server ayarlarınıza göre güncelleyin:
+   - Projenin `appsettings.json` dosyasını açın ve `ConnectionStrings` bölümündeki `DefaultConnection` ayarını kendi SQL Server ayarlarınıza göre güncellemeniz gerekecek:
      
      "ConnectionStrings": {
        "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=MyAppDB;User Id=YOUR_USER_ID;Password=YOUR_PASSWORD;"
